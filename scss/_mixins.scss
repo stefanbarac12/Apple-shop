@@ -1,0 +1,27 @@
+@mixin flex($justify, $align, $direction: row, $wrap: nowrap) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin bg($image, $size, $position: center) {
+    background-image: $image;
+    background-position: $position;
+    background-size: $size;
+    background-repeat: no-repeat;
+}
+
+@mixin btn {
+    background-color: transparent;
+    color: $yellow;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: $transition;
+    font-size: 1.2rem;
+    border: 2px solid $yellow;
+    outline: none;
+    display: block;
+}

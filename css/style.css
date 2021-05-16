@@ -35,12 +35,6 @@ ul {
   padding: 100px 0;
 }
 
-.container {
-  width: 70%;
-  margin: auto;
-  padding: 100px 0;
-}
-
 nav {
   height: 8vh;
   background: linear-gradient(to right, #6e2594, #ecd444);
